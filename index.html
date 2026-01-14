@@ -206,6 +206,28 @@ footer{
         margin-left:12px;
     }
 }
+
+.cert-icon-card{
+    text-align:center;
+}
+
+.cert-icon{
+    width:80px;
+    height:80px;
+    border-radius:50%;
+    background:linear-gradient(135deg,#c7b7f2,#bde0fe);
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    margin:0 auto 18px;
+    box-shadow:0 12px 30px rgba(0,0,0,0.15);
+}
+
+.cert-icon img{
+    width:45px;
+    height:45px;
+    object-fit:contain;
+}
 </style>
 </head>
 <body>
@@ -263,8 +285,10 @@ footer{
 <section id="certs">
     <h2 class="section-title">Certifications</h2>
     <div class="certs">
-        <div class="card">
-            <img src="credly.jpg" alt="Cisco Certificate">
+        <div class="card cert-icon-card">
+            <div class="cert-icon">
+                <img src="credly.jpg" alt="Cisco Certificate">
+            </div>
             <h3>Cisco Networking Academy</h3>
             <a href="https://www.credly.com/badges/da494229-467c-4b7c-8071-e180366914ba/public_url?" target="_blank">
                 View Certificate →
@@ -272,6 +296,7 @@ footer{
         </div>
     </div>
 </section>
+
 
 <section id="contact">
     <h2 class="section-title">Contact</h2>

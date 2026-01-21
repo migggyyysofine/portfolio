@@ -201,8 +201,8 @@ footer{
 }
 
 .cert-icon{
-    width:80px;
-    height:80px;
+    width:100px;
+    height:100px;
     border-radius:50%;
     background:linear-gradient(135deg,#c7b7f2,#bde0fe);
     display:flex;
@@ -213,8 +213,8 @@ footer{
 }
 
 .cert-icon img{
-    width:45px;
-    height:45px;
+    width:55px;
+    height:55px;
     object-fit:contain;
 }
 
